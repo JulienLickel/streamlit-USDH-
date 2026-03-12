@@ -17,6 +17,7 @@ Created on Tue Nov  8 12:03:36 2022
 
 import numpy as np
 import pandas as pd
+import openpyxl
 
 
 import matplotlib.pyplot as plt
@@ -15521,6 +15522,7 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 
 
