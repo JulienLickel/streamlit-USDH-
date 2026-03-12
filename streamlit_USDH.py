@@ -9869,7 +9869,7 @@ def histogram_differentiel_type_action_saison(fig , ax , data , type_action = ["
 
 ###        IMPORTATION DE LA BASE DE DONNEES DES ACTIONS DE L'EQUIPE SM1 DE L'USDH 2022-2023 (fichier excel) : 
 
-chemin_acces = "https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/JulienLickel/streamlit-USDH-/refs/heads/main/faits_de_jeu.xlsx?raw=true"
+chemin_acces = "https://raw.githubusercontent.com/JulienLickel/streamlit-USDH-/refs/heads/main/faits_de_jeu.xlsx"
 
 df = importation_et_nettoyage(link = chemin_acces) 
 
@@ -15522,6 +15522,7 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 
 
