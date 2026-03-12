@@ -167,7 +167,7 @@ def load_image(file):
     
 ## Fonction permettant d'importer la base de données des SM1 de l'USDH et de la nettoyer pour analyse : 
     
-def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-USDH-/blob/main/base_de_donnees_feuilles_de_match_SM1.xlsx?raw=true") : 
+def importation_et_nettoyage(link) : 
     
     """Importe et nettoie rapidement la base de données des matchs de championnat des SM1 de l'USDH en 2022-2023."""
     
@@ -175,7 +175,7 @@ def importation_et_nettoyage(link = "https://github.com/jujuHandF144/streamlit-U
     
     # 1) Importation du fichier excel : 
     
-    df = pd.read_excel(link, engine='openpyxl')
+    df = pd.read_excel(link)
     
     
     
@@ -15521,6 +15521,7 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 
 
