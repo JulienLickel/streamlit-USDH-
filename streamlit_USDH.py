@@ -175,7 +175,7 @@ def importation_et_nettoyage(link) :
     
     # 1) Importation du fichier excel : 
     
-    df = pd.read_excel(link)
+    df = pd.read_excel(link , engine = 'xlrd')
     
     
     
@@ -15521,6 +15521,7 @@ else :    # bouton_activite != " " :
                                     
                                 
                                     
+
 
 
 
